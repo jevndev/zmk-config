@@ -80,6 +80,13 @@
         };
 
         CONTROL_LAYER {
+            // ------------------------------------------------------------------------------------------------------------
+            // |       | BT 0 | BT 1 |      |      |      |                   |      |       |       |      |       |       |
+            // |       |      |      |      |      |      |                   |      |       |       |      |       |       |
+            // |       |      |      |      |      |      |                   |      |       |       |      |       |       |
+            // |       |      |      |      |      |      |                   |      |       |       |      |       |       |
+            //                       |      |      |      |        |  |       |      |       |       |
+
             bindings = <
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
